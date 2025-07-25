@@ -1,0 +1,9 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"] // com esse alias, você pode importar arquivos de src usando @/caminho/para/o/arquivo
+    },
+  }
+}
