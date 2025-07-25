@@ -8,7 +8,7 @@ export default function Home() {
       <Image  source={require("@/assets/logo.png")} style={styles.logo} />
      
       <View  style={styles.form}>
-      <Input placeholder="O que você precisa comprar?" />
+      <Input placeholder="O que você deseja comprar?" />
       <Button title="Adcionar" />
       </View>
 
